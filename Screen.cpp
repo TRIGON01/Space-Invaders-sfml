@@ -31,9 +31,7 @@ void Screen::draw(RenderWindow& window)
 {
 	auto itr = m_Panels.begin();
 	auto end = m_Panels.end();
-	for (itr;
-		itr != end;
-		++itr)
+	for (itr;itr != end;++itr)
 	{
 		(*itr)->draw(window);
 	}
