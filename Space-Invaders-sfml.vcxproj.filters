@@ -90,6 +90,15 @@
     <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.h">
       <Filter>Header Files\Screens\Select</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpaceInvaders.cpp">
@@ -127,6 +136,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.cpp">
       <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -145,7 +145,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.cpp" />
     <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.cpp" />
     <ClCompile Include="BitmapStore.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="GameEngine.cpp" />
@@ -159,7 +162,10 @@
     <ClCompile Include="UIPanel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.h" />
     <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.h" />
     <ClInclude Include="BitmapStore.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="DevelopState.h" />
