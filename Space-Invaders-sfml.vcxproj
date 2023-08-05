@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sharm\Documents\Gamedev(C++)\Actual-project-code\Space-Invaders-sfml;C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,7 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sharm\Documents\Gamedev(C++)\Actual-project-code\Space-Invaders-sfml;C:\Users\sharm\Documents\Dependencies\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,10 +145,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ColliderComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Component.cpp" />
     <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverInputHandler.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverUIPanel.cpp" />
     <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameUIPanel.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GraphicsComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\RectColliderComponent.cpp" />
     <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.cpp" />
     <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\StandardGraphicsComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\TransformComponent.cpp" />
+    <ClCompile Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UpdateComponent.cpp" />
     <ClCompile Include="BitmapStore.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="GameEngine.cpp" />
@@ -162,10 +172,20 @@
     <ClCompile Include="UIPanel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\ColliderComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\Component.h" />
     <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverInputHandler.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameOverUIPanel.h" />
     <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameScreen.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GameUIPanel.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\GraphicsComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\RectColliderComponent.h" />
     <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectInputHandler.h" />
     <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\SelectUIPanel.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\StandardGraphicsComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\TransformComponent.h" />
+    <ClInclude Include="..\..\Beginning-Cpp-Game-Programming-Second-Edition-master\Chapter20-22\Space Invaders ++ 2\UpdateComponent.h" />
     <ClInclude Include="BitmapStore.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="DevelopState.h" />
